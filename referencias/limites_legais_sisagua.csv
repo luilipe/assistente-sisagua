@@ -1,0 +1,121 @@
+parametro;aliases;grupo;tipo_limite;minimo;maximo;unidade;resultado_aceito;aplicacao;fonte;observacao
+Bacterias heterotroficas;contagem de bacterias heterotroficas;microbiologico;INFORMATIVO;;;UFC/mL;;controle operacional;PRT888_NAO_LISTADO;A Portaria 888 nao fixa VMP de 500 UFC/mL. Nao confundir bacterias heterotroficas com esporos de bacterias aerobias.
+Coliformes totais;coliformes;microbiologico;GATILHO;;;NMP ou UFC/100 mL;AUSENCIA;controle da SAC;PRT888_ANEXO1;Presenca aciona avaliacao e medidas corretivas conforme o contexto e plano de amostragem
+Escherichia coli;E. coli|Escherichia Coli;microbiologico;AUSENCIA;;;NMP ou UFC/100 mL;AUSENCIA;agua para consumo humano;PRT888_ANEXO1;Presenca exige alerta imediato
+Turbidez;turbidez NTU|turbidez uT;fisico_quimico;VMP;;5;uT;;sistema de distribuicao e ponto de consumo;PRT888_ART28P2_ANEXO11;VMP pontual de 5 uT. Pos-desinfeccao e filtracao possuem regras percentuais especificas no Anexo 2.
+Turbidez pos-desinfeccao subterranea;turbidez saida tratamento subterranea;fisico_quimico;REGRA_PERCENTUAL;;1;uT;;95% das amostras pos-desinfeccao de agua subterranea;PRT888_ANEXO2;Nos 5% restantes, nenhuma amostra pontual pode superar 5 uT (Art. 28).
+Cloro residual combinado;CRC;desinfetante;MINIMO;2;;mg/L;;distribuicao e ponto de consumo;PRT888_ART32;Nao aplicar automaticamente o VMP de Cloraminas Total sem confirmar a identidade do parametro.
+Cloro residual livre;CRL;desinfetante;FAIXA;0.2;5;mg/L;;distribuicao e ponto de consumo com cloracao;PRT888_ART32_ANEXO9;Minimo 0.2 mg/L no Art. 32 e maximo 5 mg/L no Anexo 9.
+Cloro residual total;CRT;desinfetante;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Sem limite unico na Portaria 888. Identificar a especie de desinfetante antes de comparar.
+Dioxido de cloro;ClO2;desinfetante;MINIMO;0.2;;mg/L;;distribuicao e ponto de consumo;PRT888_ART32;
+Antimonio;;inorganico;VMP;;0.006;mg/L;;potabilidade;PRT888_ANEXO9;
+Arsenio;;inorganico;VMP;;0.01;mg/L;;potabilidade;PRT888_ANEXO9;
+Bario;;inorganico;VMP;;0.7;mg/L;;potabilidade;PRT888_ANEXO9;
+Cadmio;;inorganico;VMP;;0.003;mg/L;;potabilidade;PRT888_ANEXO9;
+Chumbo;;inorganico;VMP;;0.01;mg/L;;potabilidade;PRT888_ANEXO9;
+Cobre;;inorganico;VMP;;2;mg/L;;potabilidade;PRT888_ANEXO9;
+Cromo;;inorganico;VMP;;0.05;mg/L;;potabilidade;PRT888_ANEXO9;
+Fluoreto;fluor;inorganico;VMP;;1.5;mg/L;;potabilidade;PRT888_ANEXO9;
+Mercurio Total;mercurio;inorganico;VMP;;0.001;mg/L;;potabilidade;PRT888_ANEXO9;
+Niquel;;inorganico;VMP;;0.07;mg/L;;potabilidade;PRT888_ANEXO9;
+Nitrato (como N);nitrato;inorganico;VMP;;10;mg/L;;potabilidade;PRT888_ANEXO9;Confirmar se o resultado esta expresso como N
+Nitrito (como N);nitrito;inorganico;VMP;;1;mg/L;;potabilidade;PRT888_ANEXO9;Confirmar se o resultado esta expresso como N
+Selenio;;inorganico;VMP;;0.04;mg/L;;potabilidade;PRT888_ANEXO9;
+Soma das razoes nitrato + nitrito;soma nitrato nitrito|razao nitrato nitrito;inorganico;FORMULA;;1;razao;;potabilidade;PRT888_ART39;Calcular (nitrato/10) + (nitrito/1). Cada parametro tambem deve cumprir seu VMP individual.
+Uranio;;inorganico;VMP;;0.03;mg/L;;potabilidade;PRT888_ANEXO9;
+1,2 Dicloroetano;1 2-dicloroetano;organico;VMP;;5;ug/L;;potabilidade;PRT888_ANEXO9;
+Acrilamida;;organico;VMP;;0.5;ug/L;;potabilidade;PRT888_ANEXO9;
+Benzeno;;organico;VMP;;5;ug/L;;potabilidade;PRT888_ANEXO9;
+Benzo[a]pireno;benzo(a)pireno;organico;VMP;;0.4;ug/L;;potabilidade;PRT888_ANEXO9;
+Cloreto de Vinila;;organico;VMP;;0.5;ug/L;;potabilidade;PRT888_ANEXO9;
+Di(2-etilhexil) ftalato;di 2-etilhexil ftalato;organico;VMP;;8;ug/L;;potabilidade;PRT888_ANEXO9;
+Diclorometano;;organico;VMP;;20;ug/L;;potabilidade;PRT888_ANEXO9;
+Dioxano;1,4-dioxano;organico;VMP;;48;ug/L;;potabilidade;PRT888_ANEXO9;
+Epicloridrina;;organico;VMP;;0.4;ug/L;;potabilidade;PRT888_ANEXO9;
+Etilbenzeno;;organico;VMP;;300;ug/L;;potabilidade;PRT888_ANEXO9;
+Pentaclorofenol;;organico;VMP;;9;ug/L;;potabilidade;PRT888_ANEXO9;
+Tetracloreto de Carbono;;organico;VMP;;4;ug/L;;potabilidade;PRT888_ANEXO9;
+Tetracloroeteno;;organico;VMP;;40;ug/L;;potabilidade;PRT888_ANEXO9;
+Tolueno;;organico;VMP;;30;ug/L;;potabilidade;PRT888_ANEXO9;
+Tricloroeteno;;organico;VMP;;4;ug/L;;potabilidade;PRT888_ANEXO9;
+Xilenos;xileno;organico;VMP;;500;ug/L;;potabilidade;PRT888_ANEXO9;
+2,4 D;2,4-D;agrotoxico;VMP;;30;ug/L;;potabilidade;PRT888_ANEXO9;
+Alacloro;;agrotoxico;VMP;;20;ug/L;;potabilidade;PRT888_ANEXO9;
+Aldicarbe + Aldicarbesulfona + Aldicarbesulfoxido;aldicarb + sulfona + sulfoxido;agrotoxico;VMP;;10;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Aldrin + Dieldrin;;agrotoxico;VMP;;0.03;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Ametrina;;agrotoxico;VMP;;60;ug/L;;potabilidade;PRT888_ANEXO9;
+Atrazina + S-Clorotriazinas;atrazina + metabolitos;agrotoxico;VMP;;2;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Carbendazim;;agrotoxico;VMP;;120;ug/L;;potabilidade;PRT888_ANEXO9;
+Carbofurano;;agrotoxico;VMP;;7;ug/L;;potabilidade;PRT888_ANEXO9;
+Ciproconazol;;agrotoxico;VMP;;30;ug/L;;potabilidade;PRT888_ANEXO9;
+Clordano;clordano trans;agrotoxico;VMP;;0.2;ug/L;;potabilidade;PRT888_ANEXO9;Confirmar composicao reportada pelo laboratorio
+Clorotalonil;;agrotoxico;VMP;;45;ug/L;;potabilidade;PRT888_ANEXO9;
+Clorpirifos + clorpirifos-oxon;clorpirifos + oxon;agrotoxico;VMP;;30;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+DDT + DDD + DDE;p,p-DDT + p,p-DDE + p,p-DDD;agrotoxico;VMP;;1;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Difenoconazol;;agrotoxico;VMP;;30;ug/L;;potabilidade;PRT888_ANEXO9;
+Dimetoato + ometoato;;agrotoxico;VMP;;1.2;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Diuron;;agrotoxico;VMP;;20;ug/L;;potabilidade;PRT888_ANEXO9;
+Epoxiconazol;;agrotoxico;VMP;;60;ug/L;;potabilidade;PRT888_ANEXO9;
+Fipronil;;agrotoxico;VMP;;1.2;ug/L;;potabilidade;PRT888_ANEXO9;
+Flutriafol;;agrotoxico;VMP;;30;ug/L;;potabilidade;PRT888_ANEXO9;
+Glifosato + AMPA;;agrotoxico;VMP;;500;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Hidroxi-Atrazina;;agrotoxico;VMP;;120;ug/L;;potabilidade;PRT888_ANEXO9;
+Lindano (gama HCH);lindano gama-HCH;agrotoxico;VMP;;2;ug/L;;potabilidade;PRT888_ANEXO9;
+Malationa;malation;agrotoxico;VMP;;60;ug/L;;potabilidade;PRT888_ANEXO9;
+Mancozebe + ETU;;agrotoxico;VMP;;8;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Metamidofos + Acefato;;agrotoxico;VMP;;7;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Metolacloro;;agrotoxico;VMP;;10;ug/L;;potabilidade;PRT888_ANEXO9;
+Metribuzim;;agrotoxico;VMP;;25;ug/L;;potabilidade;PRT888_ANEXO9;
+Molinato;;agrotoxico;VMP;;6;ug/L;;potabilidade;PRT888_ANEXO9;
+Paraquate;;agrotoxico;VMP;;13;ug/L;;potabilidade;PRT888_ANEXO9;
+Picloram;;agrotoxico;VMP;;60;ug/L;;potabilidade;PRT888_ANEXO9;
+Profenofos;;agrotoxico;VMP;;0.3;ug/L;;potabilidade;PRT888_ANEXO9;
+Propargito;propargite;agrotoxico;VMP;;30;ug/L;;potabilidade;PRT888_ANEXO9;
+Protioconazol + ProticonazolDestio;;agrotoxico;VMP;;3;ug/L;;potabilidade;PRT888_ANEXO9;Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Simazina;;agrotoxico;VMP;;2;ug/L;;potabilidade;PRT888_ANEXO9;
+Tebuconazol;;agrotoxico;VMP;;180;ug/L;;potabilidade;PRT888_ANEXO9;
+Terbufos;;agrotoxico;VMP;;1.2;ug/L;;potabilidade;PRT888_ANEXO9;
+Tiametoxam;;agrotoxico;VMP;;36;ug/L;;potabilidade;PRT888_ANEXO9;
+Tiodicarbe;tiodicarb;agrotoxico;VMP;;90;ug/L;;potabilidade;PRT888_ANEXO9;
+Tiram;;agrotoxico;VMP;;6;ug/L;;potabilidade;PRT888_ANEXO9;
+Trifluralina;;agrotoxico;VMP;;20;ug/L;;potabilidade;PRT888_ANEXO9;
+2,4-Diclorofenol;2 4 diclorofenol;produto_desinfeccao;VMP;;0.2;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40).
+2,4,6-Triclorofenol;2 4 6 triclorofenol;produto_desinfeccao;VMP;;0.2;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Atencao: laudos podem vir em ug/L Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40).
+Acidos Haloaceticos Total;acidos haloaceticos totais;produto_desinfeccao;VMP;;0.08;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40). Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Bromato;;produto_desinfeccao;VMP;;0.01;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40).
+Cloraminas Total;cloraminas|monocloramina;produto_desinfeccao;VMP;;4;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40).
+Clorato;;produto_desinfeccao;VMP;;0.7;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40).
+Clorito;;produto_desinfeccao;VMP;;0.7;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40).
+N-nitrosodimetilamina;NDMA;produto_desinfeccao;VMP;;0.0001;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40).
+Trihalometanos Total;trihalometanos totais|THM;produto_desinfeccao;VMP;;0.1;mg/L;;agua tratada quando aplicavel ao desinfetante/oxidante utilizado;PRT888_ANEXO9;Conformidade legal avaliada por media movel de 12 meses por ponto (Art. 40). Somatorios de analitos seguem as regras de LD e LQ do Art. 41.
+Cilindrospermopsinas;cilindrospermopsina;cianotoxina;VMP;;1;ug/L;;agua para consumo humano;PRT888_ANEXO10;Concentracao total.
+Microcistina;microcistinas|MCYST-LR;cianotoxina;VMP;;1;ug/L equivalente MCYST-LR;;agua para consumo humano;PRT888_ANEXO10;Somatorio de todas as variantes de microcistinas.
+Saxitoxinas;saxitoxina|STX;cianotoxina;VMP;;3;ug/L equivalente STX;;agua para consumo humano;PRT888_ANEXO10;
+Atividade alfa total;radioatividade alfa global;radioatividade;NIVEL_TRIAGEM;;0.5;Bq/L;;ponto de consumo de SAC;PRT888_ART37;Aplicar regra de triagem e avaliacao prevista na norma
+Atividade alfa total apos subtracao de K-40;;radioatividade;NIVEL_TRIAGEM;;0.5;Bq/L;;ponto de consumo de SAC;PRT888_ART37;
+Atividade beta total;radioatividade beta global;radioatividade;NIVEL_TRIAGEM;;1;Bq/L;;ponto de consumo de SAC;PRT888_ART37;Aplicar regra de triagem e avaliacao prevista na norma
+Atividade beta total apos subtracao de K-40;;radioatividade;NIVEL_TRIAGEM;;1;Bq/L;;ponto de consumo de SAC;PRT888_ART37;
+1,2 Diclorobenzeno;;organoleptico;VMP;;0.001;mg/L;;agua tratada;PRT888_ANEXO11;
+1,4 Diclorobenzeno;;organoleptico;VMP;;0.0003;mg/L;;agua tratada;PRT888_ANEXO11;
+Aluminio;;organoleptico;VMP;;0.2;mg/L;;agua tratada;PRT888_ANEXO11;
+Amônia (como N);nitrogenio amoniacal;organoleptico;VMP;;1.2;mg/L;;agua tratada;PRT888_ANEXO11;
+Cloreto;;organoleptico;VMP;;250;mg/L;;agua tratada;PRT888_ANEXO11;
+Cor aparente;cor;organoleptico;VMP;;15;uH;;agua distribuida;PRT888_ANEXO11;Nao aplicar automaticamente a cor verdadeira
+Dureza total;;organoleptico;VMP;;300;mg/L;;agua tratada;PRT888_ANEXO11;
+Ferro;;organoleptico;VMP;;0.3;mg/L;;agua tratada;PRT888_ANEXO11;VMP organoleptico 0.3 mg/L. Art. 38 permite ate 2.4 mg/L somente se cumpridas as condicoes expressas na norma.
+Gosto e odor;;organoleptico;VMP;;6;Intensidade;;agua tratada;PRT888_ANEXO11;Ausencia pode ser normalizada para intensidade 0 se o campo exigir
+Manganes;;organoleptico;VMP;;0.1;mg/L;;agua tratada;PRT888_ANEXO11;VMP organoleptico 0.1 mg/L. Art. 38 permite ate 0.4 mg/L somente se cumpridas as condicoes expressas na norma.
+Monoclorobenzeno;;organoleptico;VMP;;0.02;mg/L;;agua tratada;PRT888_ANEXO11;
+Sodio;;organoleptico;VMP;;200;mg/L;;agua tratada;PRT888_ANEXO11;
+Solidos Dissolvidos Totais;SDT;organoleptico;VMP;;500;mg/L;;agua tratada;PRT888_ANEXO11;
+Sulfato;;organoleptico;VMP;;250;mg/L;;agua tratada;PRT888_ANEXO11;
+Sulfeto de hidrogenio;sulfeto H2S nao dissociado;organoleptico;VMP;;0.05;mg/L;;agua tratada;PRT888_ANEXO11;
+Zinco;;organoleptico;VMP;;5;mg/L;;agua tratada;PRT888_ANEXO11;
+Condutividade eletrica;condutividade a 25 C;outros;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Sem VMP de potabilidade numerico simples nesta base
+Cor verdadeira;;outros;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Sem VMP numerico simples nesta base
+Demanda Bioquimica de Oxigenio;DBO;outros;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Sem VMP de potabilidade numerico simples nesta base
+Demanda Quimica de Oxigenio;DQO;outros;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Sem VMP de potabilidade numerico simples nesta base
+Fosforo Total;;outros;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Sem VMP de potabilidade numerico simples nesta base
+Nitrogenio Amoniacal Total;;outros;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Confirmar se corresponde a amonia como N antes de aplicar 1.2 mg/L
+Oxigenio Dissolvido;OD;outros;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Sem VMP de potabilidade numerico simples nesta base
+pH;;outros;INFORMATIVO;;;;;;PRT888_NAO_LISTADO;Sem VMP de potabilidade numerico simples nesta base, manter resultado e nao inventar faixa

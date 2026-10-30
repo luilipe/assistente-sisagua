@@ -1,0 +1,1 @@
+globalThis.SISAGUA_BATCHES = [];

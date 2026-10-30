@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Assistente SISAGUA SAC",
+  "version": "2.0.4",
+  "description": "Importa, avalia, preenche, salva e audita categorias semestrais no SISAGUA sem efetuar envio definitivo.",
+  "minimum_chrome_version": "105",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://sisagua.saude.gov.br/sisagua/*"],
+      "js": ["legal-data.js", "core.js", "batch-data.js", "parser.js", "parser-secure.js", "header-contract.js", "content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

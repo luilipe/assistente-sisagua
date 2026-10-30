@@ -1,0 +1,11 @@
+{
+  "name": "sisagua-controle-sac",
+  "private": true,
+  "version": "2.0.4",
+  "type": "module",
+  "scripts": {
+    "generate:legal": "node tools/generate-legal-data.mjs",
+    "test": "node chrome-extension-sisagua/tests/run-all.mjs",
+    "check": "node --check chrome-extension-sisagua/legal-data.js && node --check chrome-extension-sisagua/core.js && node --check chrome-extension-sisagua/parser.js && node --check chrome-extension-sisagua/parser-secure.js && node --check chrome-extension-sisagua/header-contract.js && node --check chrome-extension-sisagua/content.js"
+  }
+}

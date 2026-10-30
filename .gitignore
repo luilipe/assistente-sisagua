@@ -1,0 +1,24 @@
+
+# Local data and secrets
+.env*
+!.env.example
+.firebaserc
+.firebase/
+.wrangler/
+.sites-runtime/
+node_modules/
+.next/
+out/
+dist/
+outputs/
+output/
+tmp/
+*.log
+*.db
+*.sqlite*
+*.tsbuildinfo
+*service-account*.json
+*credentials*.json
+*.pem
+*.key
+desktop.ini

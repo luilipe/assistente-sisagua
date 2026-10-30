@@ -1,0 +1,9 @@
+base_id=PRT888_LOCAL_2026-07-13_v2
+status=USO_LOCAL_ROTINEIRO
+norma=Portaria GM/MS 888/2021 - Anexo XX
+verificado_em=2026-07-13
+fonte_oficial=https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-888-de-4-de-maio-de-2021-318461562
+csv=referencias/limites_legais_sisagua.csv
+texto_offline=referencias/portaria_gm_ms_888_2021_texto_oficial.txt
+consulta_rotina=buscar somente o parametro ou alias no CSV
+internet_rotina=NAO
